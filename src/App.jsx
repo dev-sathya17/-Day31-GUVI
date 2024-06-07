@@ -1,8 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
-import Authors from "./pages/Authors";
-import Books from "./pages/Books";
+import Authors from "./pages/author/Authors";
+import Books from "./pages/books/Books";
 
 const routes = createBrowserRouter([
   {

@@ -2,7 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { authors } from "../data/authorData";
 import "./Home.css";
-import Grid from "../components/navbar/grid/Grid";
+import Grid from "../components/grid/Grid";
 import { books } from "../data/bookData";
 import { useNavigate } from "react-router-dom";
 const Home = () => {
