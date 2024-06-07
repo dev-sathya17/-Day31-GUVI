@@ -18,7 +18,7 @@ textarea {
   width: 45%;
   border: none;
   outline: none;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   padding-left: 7px;
 }
@@ -33,4 +33,18 @@ textarea {
   color: red;
   font-size: 15px;
   margin: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  input {
+    height: 15px;
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 7px;
+  }
+  textarea {
+    font-size: 12px;
+  }
 }

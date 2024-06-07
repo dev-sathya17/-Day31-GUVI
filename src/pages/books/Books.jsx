@@ -50,7 +50,6 @@ const Books = () => {
         );
         setIsUpdate(false);
       } else {
-        console.log("here");
         setData([...data, values]);
       }
       formik.resetForm();

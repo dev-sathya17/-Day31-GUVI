@@ -5,7 +5,6 @@ import { useFormik } from "formik";
 import Card from "../../components/Card/Card";
 import "./Author.css";
 const validate = (values) => {
-  console.log(values);
   const errors = {};
   if (!values.name) {
     errors.name = "Name is required";
