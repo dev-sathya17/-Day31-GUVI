@@ -6,7 +6,7 @@ const Card = ({ data, type, handleDelete, setIsUpdate, handleUpdate }) => {
     <div className="my-card">
       <div>
         <img
-          className="card-img"
+          className={type === "author" ? "card-img" : "book-img"}
           src={data.image}
           alt={type === "author" ? data.name : data.title}
         />
@@ -27,7 +27,11 @@ const Card = ({ data, type, handleDelete, setIsUpdate, handleUpdate }) => {
           {type === "author" ? data.name : data.title}
         </p>
         <p className="text dob">{type === "author" ? data.dob : data.author}</p>
-        {type === "book" ? <p className="text">{data.ISBN}</p> : <></>}
+        {type === "books" ? (
+          <p className="text isbn">ISBN: {data.ISBN}</p>
+        ) : (
+          <></>
+        )}
         <p className="text">
           {type === "author" ? data.bio : data.publicationDate}
         </p>

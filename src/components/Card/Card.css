@@ -14,7 +14,16 @@
   transition: 0.3s ease;
 }
 
-.card-img:hover {
+.book-img {
+  width: auto;
+  height: 100%;
+  filter: grayscale();
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.card-img:hover,
+.book-img:hover {
   filter: none;
   transform: scale(1.05);
 }
@@ -27,9 +36,15 @@
 .text-contents {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   padding: 15px;
   margin-top: 15px;
+  width: 100%;
+}
+
+.isbn {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .title {
