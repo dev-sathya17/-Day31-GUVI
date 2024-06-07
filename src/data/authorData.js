@@ -25,7 +25,7 @@ export const authors = [
   },
   {
     id: 4,
-    name: "Gabriel García Márquez",
+    name: "Gabriel Márquez",
     dob: "06-03-1927",
     bio: "Gabriel García Márquez was a Colombian novelist, short-story writer, screenwriter, and journalist. Considered one of the most significant authors of the 20th century, he was awarded the Nobel Prize in Literature in 1982. His most famous works include 'One Hundred Years of Solitude' and 'Love in the Time of Cholera,' which are hallmarks of magical realism, blending the fantastic with the ordinary.",
     image:
