@@ -4,7 +4,7 @@ export const books = [
     title: "Harry Potter and the Philosopher's Stone",
     author: "J.K. Rowling",
     ISBN: "978-0747532699",
-    publicationDate: "26-06-1997",
+    publicationDate: "1997-06-26",
     image:
       "https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg",
   },
@@ -13,7 +13,7 @@ export const books = [
     title: "1984",
     author: "George Orwell",
     ISBN: "978-0451524935",
-    publicationDate: "08-06-1949",
+    publicationDate: "1949-06-08",
     image:
       "https://miro.medium.com/v2/resize:fit:800/1*g8s4n-puPV3y-F2b7ilJ_A.jpeg",
   },
@@ -22,7 +22,7 @@ export const books = [
     title: "Pride and Prejudice",
     author: "Jane Austen",
     ISBN: "978-1503290563",
-    publicationDate: "28-01-1813",
+    publicationDate: "1813-01-28",
     image:
       "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/f/s/1/pride-prejudice-original-imagy32ephewfga2.jpeg?q=20&crop=false",
   },
@@ -31,7 +31,7 @@ export const books = [
     title: "One Hundred Years of Solitude",
     author: "Gabriel García Márquez",
     ISBN: "978-0060883287",
-    publicationDate: "05-06-1967",
+    publicationDate: "1967-06-05",
     image:
       "https://m.media-amazon.com/images/I/81oAEEwxBWL._AC_UF1000,1000_QL80_.jpg",
   },
@@ -40,7 +40,7 @@ export const books = [
     title: "Murder on the Orient Express",
     author: "Agatha Christie",
     ISBN: "978-0062693662",
-    publicationDate: "01-01-1934",
+    publicationDate: "1934-01-01",
     image:
       "https://m.media-amazon.com/images/I/71ihbKf67RL._AC_UF1000,1000_QL80_.jpg",
   },

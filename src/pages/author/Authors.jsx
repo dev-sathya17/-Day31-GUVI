@@ -29,6 +29,7 @@ const validate = (values) => {
 
 const Authors = () => {
   const [data, setData] = useState(authors);
+  const [isUpdate, setIsUpdate] = useState(false);
   const formik = useFormik({
     initialValues: {
       id: data.length + 1,
@@ -39,9 +40,26 @@ const Authors = () => {
     },
     validate,
     onSubmit: (values) => {
-      setData([...data, values]);
+      if (isUpdate) {
+        setData(
+          data.map((author) => (author.id === values.id ? values : author))
+        );
+      } else {
+        setData([...data, values]);
+      }
+      formik.resetForm();
     },
   });
+
+  const handleDelete = (id) => {
+    setData(data.filter((author) => author.id !== id));
+  };
+
+  const handleUpdate = (data) => {
+    setIsUpdate(true);
+    formik.setValues(data);
+  };
+
   return (
     <div>
       <Navbar />
@@ -96,7 +114,15 @@ const Authors = () => {
       </form>
       <div className="card-container">
         {data.map((author, index) => {
-          return <Card key={index} data={author} type="author" />;
+          return (
+            <Card
+              key={index}
+              data={author}
+              type="author"
+              handleDelete={handleDelete}
+              handleUpdate={handleUpdate}
+            />
+          );
         })}
       </div>
     </div>

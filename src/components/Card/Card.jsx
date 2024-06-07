@@ -1,6 +1,7 @@
+import { AiFillEdit } from "react-icons/ai";
+import { FaTrashAlt } from "react-icons/fa";
 import "./Card.css";
-const Card = ({ data, type }) => {
-  console.log(data);
+const Card = ({ data, type, handleDelete, setIsUpdate, handleUpdate }) => {
   return (
     <div className="my-card">
       <div>
@@ -10,7 +11,18 @@ const Card = ({ data, type }) => {
           alt={type === "author" ? data.name : data.title}
         />
       </div>
+
       <div className="text-contents">
+        <div className="icons">
+          <AiFillEdit
+            className="edit-icon"
+            onClick={() => handleUpdate(data)}
+          />
+          <FaTrashAlt
+            className="delete-icon"
+            onClick={() => handleDelete(data.id)}
+          />
+        </div>
         <p className="text title">
           {type === "author" ? data.name : data.title}
         </p>
