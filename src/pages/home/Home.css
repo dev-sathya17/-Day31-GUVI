@@ -36,3 +36,16 @@ section {
 .arrow:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 1250px) {
+  .section-container {
+    height: auto;
+  }
+  .grid-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .grid-container > * {
+    margin: 25px;
+  }
+}

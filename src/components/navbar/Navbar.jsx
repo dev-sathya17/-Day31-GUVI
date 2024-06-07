@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <FaBookReader className="icon" />
-        </a>
+        <div className="navbar-brand">
+          <FaBookReader className="icon" /> Book Club
+        </div>
         <button
           className="navbar-toggler"
           type="button"
