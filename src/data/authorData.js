@@ -3,7 +3,7 @@ export const authors = [
     id: 1,
     name: "J.K. Rowling",
     dob: "31-07-1965",
-    bio: "J.K. Rowling is a British author best known for writing the Harry Potter fantasy series, which has become one of the best-selling book series in history. Born in Yate, Gloucestershire, she conceived the idea for the series while on a delayed train from Manchester to London in 1990. The success of the books and films has made Rowling one of the world's most famous and wealthiest authors. Beyond Harry Potter, she has written adult fiction and crime novels under the pseudonym Robert Galbraith.",
+    bio: "J.K. Rowling is a British author best known for writing the Harry Potter fantasy series, which has become one of the best-selling book series in history. Born in Yate, Gloucestershire, she conceived the idea for the series while on a delayed train from Manchester to London in 1990. Beyond Harry Potter, she has written adult fiction and crime novels under the pseudonym Robert Galbraith.",
     image:
       "https://m.media-amazon.com/images/S/amzn-author-media-prod/8cigckin175jtpsk3gs361r4ss.jpg",
   },
@@ -29,7 +29,7 @@ export const authors = [
     dob: "06-03-1927",
     bio: "Gabriel García Márquez was a Colombian novelist, short-story writer, screenwriter, and journalist. Considered one of the most significant authors of the 20th century, he was awarded the Nobel Prize in Literature in 1982. His most famous works include 'One Hundred Years of Solitude' and 'Love in the Time of Cholera,' which are hallmarks of magical realism, blending the fantastic with the ordinary.",
     image:
-      "https://www.agenciabalcells.com/fileadmin/_processed_/csm_garcia_marquez__gabriel_f26894719d.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiYcgWYq3Ti9Z8-CIelT_2zCvKS7s1w0uD9A&s",
   },
   {
     id: 5,
@@ -37,6 +37,6 @@ export const authors = [
     dob: "15-09-1890",
     bio: "Agatha Christie was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around her famous detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play, 'The Mousetrap.' Christie is often referred to as the 'Queen of Mystery' and is one of the best-selling authors of all time.",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Agatha_Christie.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSNm5qeuKHi-VWP8y-ei9kgiBdXNaEyxzpQ&s",
   },
 ];

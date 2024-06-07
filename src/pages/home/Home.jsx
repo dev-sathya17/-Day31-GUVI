@@ -1,10 +1,10 @@
-import Navbar from "../components/navbar/Navbar";
 import { FaCircleArrowRight } from "react-icons/fa6";
-import { authors } from "../data/authorData";
 import "./Home.css";
-import Grid from "../components/grid/Grid";
-import { books } from "../data/bookData";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../../components/navbar/Navbar";
+import Grid from "../../components/grid/Grid";
+import { authors } from "../../data/authorData";
+import { books } from "../../data/bookData";
 const Home = () => {
   const nav = useNavigate();
   const navigate = (page) => {
