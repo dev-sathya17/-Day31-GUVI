@@ -1,0 +1,15 @@
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 45px;
+  background-color: aqua;
+  height: 92vh;
+}
+section {
+  border: 2px solid red;
+  width: 90%;
+  height: 35%;
+  border-radius: 25px;
+}
